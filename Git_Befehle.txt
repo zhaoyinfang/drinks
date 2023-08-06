@@ -1,0 +1,80 @@
+﻿用户名: foreverfzy2008@hotmail.com
+密码: 8]fY2_WY
+
+Einstellung:
+      name:
+       git config --global user.name "zhaoyinfang"
+      email:
+       git config --global user.email "foreverfzy2008@hotmail.com"
+
+Verwendung:
+      git status: Damit wird überprüft, ob ein Ordner zu Git Repository gehört
+      git init: ein git-repository initialisieren
+      git add 123.txt: eine Datei nachverfolgen
+      git reset HEAD 123.txt: Der Gegenteil von dem Befehl git add
+      git commit -m "BlaBla": eine Datei in Lage speichern
+      git commit -a -m "Blabla":   git add +git commit
+      git checkout 123.txt: Datei 123.txt von modified zu unmodified zurücksetzen
+      git restore 123.txt: eine Datei auf letzten speichern zurücksetzen
+      git restore --stage ./123.txt: den staged-Status einer Datei rücksetzen (von Stage wieder auf Workspace zurücksetzen)
+      git branch: Zeiger auf Commits anzeigen.
+      git branch new_br: einen neuen Entwicklungszweig (der new_br heißt) erstellen
+      git branch -d new_br: den entwicklungszweig new_br löschen
+      git switch new_br: in den Branch new_br wechseln
+      git switch -c new_br: Branch new_br erstellen und dann in den Branch new_br wechseln
+      git merge new_br: Branch new_br in der aktuellen Branch zusammenschließen (Schnell, wenn einfach Merging stattfindet)
+      git rebase XXX: den aktuellen Branch in branch XXX integrieren(Danach kann man commit machen und dann einfaches Merging machen)
+      git hard 36bd8d4b5377a65059f23a825ae3516996fdb69d: auf dem Knoten rücksetzen 
+
+the Token: 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 (classic)
+
+the Token: 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(fine-grained)
+
+git remote add Test git@github.com:zhaoyinfang/Test.git
+git branch -M main
+git push -u Test master
+
+git remote add Test https://github.com/zhaoyinfang/Test.git
+git branch -M main
+git push -u Test master
+
+git remote add origin https://github.com/zhaoyinfang/Test.git
+git push -u origin master
+
+git clone https://github.com/zhaoyinfang/Test.git: das Repository Test in den Local-PC herunterladen
+
+
+What is doc_string?
+A Python docstring is a string used to document a Python module, class, function or method, so programmers can understand what it does without having to read the details of the implementation. Also, it is a common practice to generate online (html) documentation automatically from docstrings.
+
+What is Apache Spark (Spark)?
+Apache Spark is an open-source unified analytics engine for large-scale data processing.
+Apache Spark is an open-source cluster-computing framework, built around speed, ease of use, and streaming analytics whereas Python is a general-purpose, high-level programming language. It provides a wide range of libraries and is majorly used for Machine Learning and Real-Time Streaming Analytics.
+
+What is pyspark?
+PySpark is an interface for Apache Spark in Python. It not only allows you to write Spark applications using Python APIs, but also provides the PySpark shell for interactively analyzing your data in a distributed environment. PySpark supports most of Spark’s features such as Spark SQL, DataFrame, Streaming, MLlib (Machine Learning) and Spark Core.
+
+What is pandas?
+Pandas is a Python library. Pandas is used to analyze data.
+
+What is dataframe?
+A DataFrame is a data structure that organizes data into a 2-dimensional table of rows and columns, much like a spreadsheet. DataFrames are one of the most common data structures used in modern data analytics because they are a flexible and intuitive way of storing and working with data
+
+What is test driven development?
+Bei TDD schreiben die Entwickler erst den Test für eine Funktionalität und dann den eigentlichen Produktivcode. Das inkrementelle Vorgehen aus kleinen, nur wenige Minuten dauernden Tests und der Implementierung des Codes sorgt dafür, dass Testen und Entwickeln eng miteinander verzahnt sind. Auf den Test folgt das Schreiben des Produktivcodes und das Code Refactoring.
+
+What is Test automation?
+In software testing, test automation is the use of software separate from the software being tested to control the execution of tests and the comparison of actual outcomes with predicted outcomes.[1] Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually.
+
+Was ist Message Queue?
+Message Queues stellen ein asynchrones Kommunikationsprotokoll bereit, indem Absender und Empfänger von Nachrichten nicht gleichzeitig mit der Nachrichten-Warteschlange interagieren müssen. Das heißt, die in der Message Queue gestellten Nachrichten werden so lange gespeichert, bis der Empfänger sie abruft. Im Anschluss dazu werden sie gelöscht.
+
+Mithilfe von Message Queues können umfangreiche Verarbeitungsprozesse entkoppelt, Aufgaben gepuffert oder im Stapelbetrieb verarbeitet und so hohe Workloads reduziert werden. Hinzu kommt, dass Message Queuing-Systeme in der Regel eine verbesserte Ausfallsicherheit bieten, um sicherzustellen, dass Nachrichten bei einem Systemausfall nicht verloren gehen.
+
+docker   
+refactoring  ist immer mal wieder nötig
+git clone recursive
+pycharm
+
+
+Cross-Site-Scripting
